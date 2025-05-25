@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Unit Converter</h1>
+  
+  <ul id="button-list">
+  </ul>
+
+  <p>From:</p>
+    <section id="input">
+    <input type="number" id="number" placeholder="Enter value" />
+    <select id="from-unit-select">
+        <option value="" selected>Select a category</option>
+    <!-- Options will be filled by JS -->
+    </select>
+    </section>
+
+    <p>To:</p>
+    <section id="output">
+        <input type="number" placeholder="Converted value" id="converted-value" disabled />
+    <select id="to-unit-select">
+    <!-- Options will be filled by JS -->
+        <option value="" selected>Select a category</option>
+    </select>
+    </section>
+
+    <button id="convert">Convert</button>
+
+    <footer>
+    <p>&copy; 2025 Unit Converter. All rights reserved.</p>
+    </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
